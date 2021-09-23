@@ -1,0 +1,76 @@
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fontello/css/fontello.css">
+    <title>Pogoda</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <a href="index.html">
+                <img src="imgs/logo.png" alt="" class="logo">
+            </a>
+            <button class="nav-btn">
+                <i class="icon-menu" ></i>
+            </button>
+        </div>
+        <nav class="navUp">
+            <ul class="nav-list">
+                <a href="index.html"><li class="nav-list-item">Strona główna</li></a>
+                <a href="oferta.html"><li class="nav-list-item">Oferta</li></a>
+                <a href="wspolpraca.html"><li class="nav-list-item">Współpraca</li></a>
+                <a href="kontakt.html"><li class="nav-list-item">Kontakt</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+
+            <section class="main-logo">
+                <img src="imgs/logo_black.png" alt="">
+            </section>
+
+            <section class="contactForm">
+                <form action="" method="POST" class="formy">
+                    <legend for="formy">Napisz do mnie wiadomość:</legend>
+
+                    <input type="email" required name="address" id="address" placeholder="Adres email"> <br>
+
+                    <input type="text" name="topic" id="topic" placeholder="Temat wiadomości">
+
+                    <input type="text" required name="message" id="message" placeholder="Wiadomość">
+
+                    <div>
+                    <input type="checkbox" required name="priv" id="priv">
+                    <label for="priv"> Wyrażam zgodę na przetwarzanie moich danych osobowych. </label>
+                    </div>
+
+                    <input type="submit" id="box" value="DALEJ">
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <a href=""><div style="grid-area: fb;">
+            <i class="icon-facebook-squared"></i>
+        </div></a>
+        <a href=""><div style="grid-area: ig;">
+            <i class="icon-instagram"></i>
+        </div></a>
+        <a href=""><div style="grid-area: yt;">
+            <i class="icon-youtube-play"></i>
+        </div></a>
+        <a href=""><div style="grid-area: tw;">
+            <i class="icon-twitter"></i>
+        </div></a>
+    </footer>
+
+    <script src="script.js"></script>
+</header>
+</body>
+</html>
